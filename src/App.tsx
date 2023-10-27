@@ -1,34 +1,38 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import './assets/react.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-<div className="background_muda">
+  <>
+  <div className = "footer-start"> 
+   <h1>CASA DAS PLANTAS</h1> 
+   
+    
+    </div>
 
-    <h1>CASA DAS PLANTAS</h1>
+  <div className="background_muda">
+       <div className="card">
+      <button onClick={() => setCount((count) => count + 1)}>
+      Login {count}
+     </button>
+    </div>
 
-      <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
 
-        <p>Cada Muda, Muda o Mundo!</p>
 
-        <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Login {count}
-        </button>
-      </div>
-
-      <p>Create_by: Helton Lemes Morais</p>
       
-      </div>
-    </>
+  </div>
+
+  <div className = "footer-endpage">
+    <p> Helton Lemes Morais           
+      <a href= " https://www.linkedin.com/in/helton-morais-838612166/" target="_blank">
+        <img src={"src/imgs/logolinkedin.png"} className="link linkedn" alt="logo linkedn" />
+      </a>
+    </p>
+  </div>
+  </>
   )
 }
 
