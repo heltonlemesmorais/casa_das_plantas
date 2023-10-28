@@ -26,11 +26,23 @@ function App() {
   </div>
 
   <div className = "footer-endpage">
-    <p> Helton Lemes Morais           
-      <a href= " https://www.linkedin.com/in/helton-morais-838612166/" target="_blank">
-        <img src={"src/imgs/logolinkedin.png"} className="link linkedn" alt="logo linkedn" />
+       Brasópolis-MG 
+       <p>+55 35 8422-6173 | +55 35 99733-2376 </p>
+      
+      <a href= " https://www.facebook.com/casadasplantasbraz" target="_blank">
+      <img src={"src/imgs/facebooklink.png"} className="facebook" alt="facebook" />
       </a>
-    </p>
+      
+      <a href= " https://www.instagram.com/casadasplantas18/?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank">
+      <img src={"src/imgs/instagramlink.png"} className="facebook" alt="facebook" />
+      </a>
+      <div>
+      Helton Lemes Morais           
+      <a href= " https://www.linkedin.com/in/helton-morais-838612166/" target="_blank">
+      <img src={"src/imgs/logolinkedin.png"} className="link linkedn" alt="logo linkedn" />
+      </a>
+      
+      </div>
   </div>
   </>
   )
